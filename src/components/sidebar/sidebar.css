@@ -1,0 +1,22 @@
+.sidebar{
+    width: 25%;
+    max-width: 500px;
+    box-shadow: 0px 0px 0px 2px #757575;
+    /* background-color: #d4dcf762; */
+    background-color: rgb(192,208,218	);
+    border-radius: 4px;
+
+   bottom: 10px;
+   top: 10px;
+   position: absolute;
+
+}
+
+@media only screen and (max-width : 1000px) {
+    .sidebar{
+        max-width: unset;
+        width: 97vw;
+        height: 20%;
+        overflow: hidden;
+    }
+}
