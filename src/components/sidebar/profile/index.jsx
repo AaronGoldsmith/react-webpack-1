@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import logo from '../../../../images/githubFace.svg';
+import { logo } from '../../../../build/images/githubFace.svg';
 // import Face from './face';
 import style from './profile.css';
 
